@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full h-screen bg-white flex flex-col">
+    <div className="w-full min-h-screen bg-white flex flex-col">
       <div className="w-full h-full px-10 py-10 flex">
         <div className="w-[80%]  h-full">
           <div className="w-full flex flex-col gap-4 py-5">
@@ -22,32 +22,29 @@ const About = () => {
             AT THE IDEATHON,STUDENTS WILL HAVE THE OPPURTUNITY TO:
             </h1>
         
-        <ul>
-            <li className="flex flex-col gap-2">
-
+         <div className="flex flex-col gap-5">
             <p className="w-[800px] text-[20px] text-[#2e2b2b]">
            <span className="text-buttonColor"> Match with students with other skills.</span> Students with technical experience can match with more business minded students. Students with a tech idea can match with students who are looking for a team to work with.
             </p>
-            </li>
-            <li>
+           
 
             <p className="w-[800px] text-[20px] text-[#2e2b2b]">
            <span className="text-buttonColor"> Meet with and form a lasting bond with a mentor.</span> Teams will meet with mentors, either UVA business or engineering faculty, or professionals in the industry, about their ideas. Mentors and students will swap information and continue to build their relationship and idea well past the Ideathon.
             </p>
-            </li>
-            <li>
+           
 
             <p className="w-[800px] text-[20px] text-[#2e2b2b]">
            <span className="text-buttonColor">Attend workshops by experts on digital innovation and marketing.</span> Both technical and business-minded students can learn from the workshops from UVA faculty and industry professionals, on what it takes to build a tech startup.
             </p>
-            </li>
-            <li>
+           
+      
 
             <p className="w-[800px] text-[20px] text-[#2e2b2b]">
            <span className="text-buttonColor">Pitch their ideas to a Shark Tank-esque board and to their fellow students for feedback and seed money.</span> Students will be able to pitch their ideas in both an expo experiment, as well as to a panel of professionals for feedback and seed money.
             </p>
-            </li>
-        </ul>
+      
+          </div> 
+
 
           
           </div>

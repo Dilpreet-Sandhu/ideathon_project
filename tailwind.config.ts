@@ -14,7 +14,8 @@ export default {
       },
       backgroundColor : {
         "maroon" : "#d6274a",
-        "buttonColor" : "#8a2929"
+        "buttonColor" : "#8a2929",
+        "darkBg" : "#d9d9d9"
       },
       textColor : {
         "maroon" : "#d6274a",

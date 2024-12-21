@@ -5,7 +5,7 @@ import gdgLogo from '../assets/gdg.svg';
 
 const Banner = () => {
   return (
-    <div className='w-full text-white h-screen bg-bannerImage  flex flex-col items-center'>
+    <div className='max-w-full text-white h-screen bg-bannerImage  flex flex-col items-center'>
 
       <div className="pt-10">
 
