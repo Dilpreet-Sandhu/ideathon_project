@@ -19,11 +19,11 @@ const Prices = () => {
                 <Image
                     src={firstPrize}
                     alt="first_prize"
-                    width={100}
+                    width={70}
                     height={50}
                 />
 
-                <div className='w-full h-full text-[28px] font-bold tracking-tight text-[#040e24] pt-4'>
+                <div className='w-full h-full text-center text-[28px] font-bold tracking-tight text-[#040e24] pt-4'>
                     <p >
                         5000 Cash Prize
                     </p>
@@ -44,11 +44,11 @@ const Prices = () => {
                 <Image
                     src={secondPrize}
                     alt="first_prize"
-                    width={100}
+                    width={70}
                     height={50}
                 />
 
-                <div className='w-full h-full text-[28px] font-bold tracking-tight text-[#ad3133] pt-4'>
+                <div className='w-full h-full text-center text-[28px] font-bold tracking-tight text-[#ad3133] pt-4'>
                     <p >
                         3000 Cash Prize
                     </p>
@@ -66,11 +66,11 @@ const Prices = () => {
                 <Image
                     src={thirdPrize}
                     alt="first_prize"
-                    width={100}
+                    width={70}
                     height={50}
                 />
 
-                <div className='w-full h-full text-[28px] text-center font-bold tracking-tight text-black pt-4'>
+                <div className='w-full h-full  text-[28px] text-center font-bold tracking-tight text-black pt-4'>
                     <p >
                         1000 Cash Prize
                     </p>

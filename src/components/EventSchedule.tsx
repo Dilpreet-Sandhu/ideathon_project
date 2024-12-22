@@ -14,16 +14,16 @@ const EventSchedule = () => {
 
            {
             eventSchedule.map((item,idx) => (
-                <div key={idx} className='border-[2px] border-gray-500 flex gap-4 rounded-lg px-1 w-[560px] h-[100px]'>
+                <div key={idx} className='border-[2px] cursor-pointer hover:bg-buttonColor hover:text-white text-black border-gray-500 flex gap-4 rounded-lg px-1 w-[560px] h-[100px]'>
 
-                <div className='w-[20%] text-[20px] flex flex-col gap-1 items-center  text-black  h-full'>
+                <div className='w-[20%] text-[20px] flex flex-col gap-1 items-center   h-full'>
 
                     <p className='pt-4'>{item.time.from}</p>
                     <p>{item.time.to}</p>
 
                 </div>
 
-                <div className='w-[80%] text-black pt-4 flex flex-col  h-full'>
+                <div className='w-[80%]  pt-4 flex flex-col  h-full'>
 
                     <h1 className='text-[20px] font-medium'>{item.title}</h1>
 
