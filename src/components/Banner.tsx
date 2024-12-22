@@ -2,6 +2,7 @@ import Image from "next/image";
 import headerText from "../assets/Logo.png";
 import geeksForGeeksLogo from "../assets/geeksForGeeks.svg";
 import gdgLogo from '../assets/gdg.svg';
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -69,9 +70,11 @@ const Banner = () => {
 
       <div className="py-6 flex items-center justify-center">
 
+          <Link target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfMANz_4uOivBmDVEmc7FmrHme2_fp5HEvJ-27zvpygHg9Adw/viewform">  
         <button className="px-2 py-1 bg-buttonColor hover:border-[2px] hover:border-buttonColor hover:bg-white hover:text-buttonColor transition-all delay-200  w-[150px] rounded-full text-[16px] flex items-center justify-center  h-[50px]">
           Register
         </button>
+          </Link>
 
       </div>
 

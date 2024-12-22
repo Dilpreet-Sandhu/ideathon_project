@@ -59,6 +59,13 @@ const About = () => {
             <p className="w-[690px] text-[22px] text-[#2e2b2b]">Punjabi University</p>
             <p className="w-[690px] text-[22px] text-[#2e2b2b]">Patiala</p>
           </div>
+          <div className="w-full flex flex-col mt-[70px]  py-5">
+            <h1 className="text-buttonColor text-[30px] underline font-bold">
+              WHEN
+            </h1>
+
+            <p className="w-[690px] text-[22px] text-[#2e2b2b]">Feburary 9,2025</p>
+          </div>
         </div>
       </div>
     </div>
